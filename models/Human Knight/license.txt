@@ -1,0 +1,3 @@
+Human knight model for the OpenFrag
+Lisence: (CC-BY) http://creativecommons.org/licenses/by/
+Author: Jayr Kalugin (www.hourglass3d.com)

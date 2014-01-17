@@ -1,0 +1,1757 @@
+Initialize engine version: 4.3.2f1 (0517a5ae8669)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx32.dll 8.17.10.1247]
+    Renderer: AMD Radeon R9 200 Series
+    Vendor:   ATI
+    VRAM:     2030 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\Ionic.Zip.Reduced.dll (this message is harmless)
+Loading C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\Ionic.Zip.Reduced.dll into Unity Child Domain
+Platform assembly: C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\JsonFx.Json.dll (this message is harmless)
+Loading C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\JsonFx.Json.dll into Unity Child Domain
+- Completed reload, in  0.059 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\KERRY\Documents\Unity3D\Myth II Project\builds\prototype 0.0.2\mythII_Data\Managed\System.Core.dll (this message is harmless)
+Scanning - Process took 632 ms to complete
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:AstarLog(String) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:593)
+AstarPath:ScanLoop(OnScanStatus) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:1866)
+AstarPath:Scan() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:1725)
+AstarPath:Awake() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:1271)
+ 
+(Filename: C Line: 0)
+
+6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:88)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:169)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 302.254 314.3774
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:217)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 409.7277 364.3881
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:222)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 418.4729 306.3026
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:227)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 303.5605 246.1576
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:232)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 507.1415 369.3572
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:190)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 524.3538 309.0196
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:195)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 4.00 ms Searched Nodes 487 Path Length 38
+Path Number 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 615 Path Length 36
+Path Number 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 630 Path Length 41
+Path Number 3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 851 Path Length 43
+Path Number 4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 424 Path Length 33
+Path Number 5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 510 Path Length 37
+Path Number 6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:88)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:169)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 320.571 -129.6863
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:217)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 416.5326 -94.24191
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:222)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 459.1829 -393.4818
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:227)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 259.8898 -378.687
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:232)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 522.5952 -119.6193
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:190)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 442.0173 -189.3993
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:195)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 2.00 ms Searched Nodes 1731 Path Length 67
+Path Number 7
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 1254 Path Length 68
+Path Number 8
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 2.00 ms Searched Nodes 1882 Path Length 71
+Path Number 9
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 1731 Path Length 74
+Path Number 10
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 1258 Path Length 64
+Path Number 11
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 1088 Path Length 66
+Path Number 12
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:88)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:169)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 230.8787 267.3525
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:182)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 502 Path Length 42
+Path Number 13
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:88)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:169)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 219.8676 246.2714
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:182)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 603 Path Length 43
+Path Number 14
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:88)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:169)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 221.8784 259.7689
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:182)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 553 Path Length 42
+Path Number 15
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:88)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:169)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 207.4923 224.6975
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:182)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 616 Path Length 43
+Path Number 16
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:88)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:169)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 203.8266 222.4898
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:182)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 577 Path Length 43
+Path Number 17
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:88)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:169)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 204.7242 241.1269
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:182)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 579 Path Length 42
+Path Number 18
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:88)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:169)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 207.8265 255.3044
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:182)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 570 Path Length 41
+Path Number 19
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:88)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:169)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 212.5664 265.6085
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:182)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 564 Path Length 40
+Path Number 20
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:88)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:169)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 387.1391 366.0378
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:217)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 403.4736 341.7131
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:222)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 399.714 351.0826
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:227)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 381.0433 357.5503
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:232)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 338.9196 298.8765
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:190)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 452.9589 313.9728
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:195)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 567 Path Length 38
+Path Number 21
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 749 Path Length 42
+Path Number 22
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 558 Path Length 39
+Path Number 23
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 753 Path Length 42
+Path Number 24
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 641 Path Length 40
+Path Number 25
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 963 Path Length 44
+Path Number 26
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:88)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:169)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 399.5912 296.4968
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:217)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 339.4821 279.5744
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:222)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 404.5705 273.8135
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:227)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 414.4442 286.393
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:232)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 379.4288 200.3887
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:190)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 411.4919 261.426
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:195)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 569 Path Length 58
+Path Number 27
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 532 Path Length 60
+Path Number 28
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 302 Path Length 58
+Path Number 29
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 2.00 ms Searched Nodes 1262 Path Length 66
+Path Number 30
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 354 Path Length 61
+Path Number 31
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 0.00 ms Searched Nodes 781 Path Length 61
+Path Number 32
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:88)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:169)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 410.0278 208.6404
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:217)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 337.5027 200.3065
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:222)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 404.1071 177.858
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:227)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 416.7196 187.1479
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:232)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 360.6 97.93588
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:190)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 409.2919 159.9322
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:195)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 1193 Path Length 52
+Path Number 33
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 926 Path Length 51
+Path Number 34
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 529 Path Length 52
+Path Number 35
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 1575 Path Length 56
+Path Number 36
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 945 Path Length 54
+Path Number 37
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 1127 Path Length 52
+Path Number 38
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:88)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+6
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:169)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 336.8398 -137.7209
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:217)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 232.7721 -228.4624
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:222)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 349.6035 -200.8227
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:227)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 350.0226 -171.2507
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:232)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 347.3602 -373.6667
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:190)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+UNIT COORDS: 363.6583 -229.693
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Unit:move(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:52)
+UnitControl:formation0(Vector3) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:195)
+UnitControl:rightClick() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:90)
+UnitControl:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\UnitControl.cs:36)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 2.00 ms Searched Nodes 1419 Path Length 65
+Path Number 39
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 1.00 ms Searched Nodes 1654 Path Length 67
+Path Number 40
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 2.00 ms Searched Nodes 984 Path Length 64
+Path Number 41
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 5.00 ms Searched Nodes 2987 Path Length 75
+Path Number 42
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 2.00 ms Searched Nodes 1613 Path Length 69
+Path Number 43
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
+Path Completed : Computation Time 3.00 ms Searched Nodes 2078 Path Length 70
+Path Number 44
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AstarPath:LogPathResults(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:626)
+<CalculatePaths>c__Iterator7:MoveNext() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2486)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:668)
+ 
+(Filename: C Line: 0)
+
+Yey, we got a path back. Did it have an error? False
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Unit:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\Game Assets\Scripts\Unit.cs:85)
+Seeker:OnPathComplete(Path, Boolean, Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:294)
+Seeker:OnPathComplete(Path) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AI\Seeker.cs:255)
+Pathfinding.Path:ReturnPath() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\Path.cs:649)
+AstarPath:ReturnPaths(Boolean) (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:2166)
+AstarPath:Update() (at C:\Users\KERRY\Documents\Unity3D\Myth II Project\Unity Project\Assets\AstarPathfindingProject\Core\AstarPath.cs:690)
+ 
+(Filename: C Line: 0)
+
