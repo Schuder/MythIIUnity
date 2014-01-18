@@ -150,7 +150,7 @@ public class UnitControl : MonoBehaviour {
 				unit.GetComponent<UnitAI>().attack(target);
 			}
 			else {
-				unit.GetComponent<UnitAI>().move(target.transform.position,true);
+				unit.GetComponent<UnitAI>().move(target.transform.position,true,1);
 			}
 		}
 	}
@@ -187,56 +187,63 @@ public class UnitControl : MonoBehaviour {
 			if(unitsInRow == 1) {
 				target = origin+new Vector3(0,0,i*-rowSeperation);
 				target = pivotVector3(target,origin,angles);
-				selectedUnits[count].GetComponent<UnitAI>().move(target,true);
+				StartCoroutine(selectedUnits[count].GetComponent<UnitAI>().move(target,true,i));
 				count++;
 			}
 
 			else if(unitsInRow==2) {
 				target =origin+new Vector3(unitSeperation/2,0,i*-rowSeperation);
 				target = pivotVector3(target,origin,angles);
-				selectedUnits[count].GetComponent<UnitAI>().move(target,true);
+				StartCoroutine(selectedUnits[count].GetComponent<UnitAI>().move(target,true,i));
 				count++;
 
 				target = origin+new Vector3(-unitSeperation/2,0,i*-rowSeperation);
 				target = pivotVector3(target,origin,angles);
-				selectedUnits[count].GetComponent<UnitAI>().move(target,true);
+				StartCoroutine(selectedUnits[count].GetComponent<UnitAI>().move(target,true,i));
 				count++;
 			}
 			else if(unitsInRow==3) {
 				target = origin+new Vector3(0,0,i*-rowSeperation);
 				target = pivotVector3(target,origin,angles);
-				selectedUnits[count].GetComponent<UnitAI>().move(target,true);
+				StartCoroutine(selectedUnits[count].GetComponent<UnitAI>().move(target,true,i));
+				
 				count++;
 
 				target = origin+new Vector3(-unitSeperation,0,i*-rowSeperation);
 				target = pivotVector3(target,origin,angles);
-				selectedUnits[count].GetComponent<UnitAI>().move(target,true);
+				StartCoroutine(selectedUnits[count].GetComponent<UnitAI>().move(target,true,i));
+				
 				count++;
 
 				target = origin+new Vector3(unitSeperation,0,i*-rowSeperation);
 				target = pivotVector3(target,origin,angles);
-				selectedUnits[count].GetComponent<UnitAI>().move(target,true);
+				StartCoroutine(selectedUnits[count].GetComponent<UnitAI>().move(target,true,i));
+				
 				count++;
 			}
 			else {
 				target = origin+new Vector3(unitSeperation/2,0,i*-rowSeperation);
 				target = pivotVector3(target,origin,angles);
-				selectedUnits[count].GetComponent<UnitAI>().move(target,true);
+				StartCoroutine(selectedUnits[count].GetComponent<UnitAI>().move(target,true,i));
+				
 				count++;
 
 				target = origin+new Vector3(-unitSeperation/2,0,i*-rowSeperation);
 				target = pivotVector3(target,origin,angles);
-				selectedUnits[count].GetComponent<UnitAI>().move(target,true);
+				StartCoroutine(selectedUnits[count].GetComponent<UnitAI>().move(target,true,i));
+				
 				count++;
 
 				target = origin+new Vector3((unitSeperation/2)+unitSeperation,0,i*-rowSeperation);
 				target = pivotVector3(target,origin,angles);
-				selectedUnits[count].GetComponent<UnitAI>().move(target,true);
+				StartCoroutine(selectedUnits[count].GetComponent<UnitAI>().move(target,true,i));
+				
 				count++;
 
 				target = origin+new Vector3((-unitSeperation/2)-unitSeperation,0,i*-rowSeperation);
 				target = pivotVector3(target,origin,angles);
-				selectedUnits[count].GetComponent<UnitAI>().move(target,true);
+				StartCoroutine(selectedUnits[count].GetComponent<UnitAI>().move(target,true,i));
+				
 				count++;
 			}
 				

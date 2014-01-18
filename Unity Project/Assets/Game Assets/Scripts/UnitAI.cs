@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Pathfinding;
@@ -22,15 +22,14 @@ public class UnitAI : MonoBehaviour {
 
 	private Path path;
 	private int frameCount = 0;
-
+	private Unit thisUnit;
 	public GameObject target;
 
 	// Use this for initialization
 	void Start () {
 		seeker = GetComponent<Seeker>();
 		controller = GetComponent<CharacterController>();
-
-		Unit thisUnit = this.GetComponent<Unit>();
+		thisUnit = this.GetComponent<Unit>();
 
 		speed = thisUnit.speed;
 		proximityAttack = thisUnit.proximityAttack;
@@ -49,6 +48,11 @@ public class UnitAI : MonoBehaviour {
 		if (frameCount == int.MaxValue) {
 			frameCount = 0;
 		}
+
+		if (!target) {
+			transform.Find ("Model").GetComponent<Animator>().SetBool("attacking",false);
+		}
+
 		if (proximityAttack) {
 			if(frameCount%reactionTime==0){
 
@@ -73,9 +77,11 @@ public class UnitAI : MonoBehaviour {
 			}
 			if(Vector3.Distance (transform.position,target.transform.position) < attackRange&&frameCount%attackTime==0) {
 				print ("doing damage");
+				transform.Find ("Model").GetComponent<Animator>().SetBool("attacking",true);
 				damageTarget();
 			}
 		}
+
 		if (path == null) {
 			//We have no path to move after yet
 			return;
@@ -83,6 +89,8 @@ public class UnitAI : MonoBehaviour {
 		
 		if (currentWaypoint >= path.vectorPath.Count) {
 			//Debug.Log ("End Of Path Reached");
+			path=null;
+			transform.Find ("Model").GetComponent<Animator>().SetBool("moving",false);
 			return;
 		}
 		
@@ -134,7 +142,9 @@ public class UnitAI : MonoBehaviour {
 	}
 
 	public void followPath() {
-		seeker.StartPath (transform.position,target.transform.position, OnPathComplete);
+		Path _temp = seeker.GetNewPath (transform.position, target.transform.position);
+		transform.Find ("Model").GetComponent<Animator>().SetBool("moving",true);
+		seeker.StartPath (_temp, OnPathComplete);
 	}
 
 	public void OnPathComplete (Path p) {
@@ -146,11 +156,14 @@ public class UnitAI : MonoBehaviour {
 		}
 	}
 
-	public void move(Vector3 targetPos,bool cancelAttack) {
+	public IEnumerator move(Vector3 targetPos,bool cancelAttack,int delay) {
 		if (cancelAttack) {
 			target = null;
 		}
-		seeker.StartPath (transform.position,targetPos, OnPathComplete);
+		Path _temp = seeker.GetNewPath (transform.position, targetPos);
+		yield return new WaitForSeconds(Random.Range(0,5)*0.15f);
+		transform.Find ("Model").GetComponent<Animator>().SetBool("moving",true);
+		seeker.StartPath (_temp, OnPathComplete);
 	}
 
 	public void attack(GameObject unit) {

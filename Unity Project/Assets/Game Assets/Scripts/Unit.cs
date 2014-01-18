@@ -25,41 +25,19 @@ public class Unit : MonoBehaviour {
 
 	public Vector2 screenPosition;
 	private float scaleY;
+	private UnitManager unitManager;
 
 	public void Start () {
-
+		unitManager = GameObject.Find ("Game Manager").GetComponent<UnitManager>();
 		scaleY = transform.Find ("HealthBar").localScale.y;
-		Transform model = transform.Find("Model");
-		Color teamColor = Color.white;
-		Color teamColorAlt = Color.white;
-		if (team == 1) {
-			teamColor = new Color(0.75f,0.75f,1.0f);
-			teamColorAlt = new Color(1.0f,1.0f,1.0f);
-		}
-		else if(team ==2) {
-			teamColor = new Color(0.25f,0.25f,0.25f);
-			teamColorAlt = new Color(0.75f,0.25f,0.25f);
-		}
 
-		model.Find ("armor1").renderer.material.color = teamColorAlt;
-		model.Find ("crotch_guard").renderer.material.color = teamColor;
-		model.Find ("crotch_guard1").renderer.material.color = teamColor;
-		model.Find ("crotch_guard2").renderer.material.color = teamColor;
-		
-		model.Find ("glutius_guard").renderer.material.color = teamColor;
-		model.Find ("glutius_guard1").renderer.material.color = teamColor;
-		model.Find ("glutius_guard2").renderer.material.color = teamColor;
-		model.Find ("glutius_guard3").renderer.material.color = teamColor;
-		
-		model.Find ("helmet_finished").renderer.material.color = teamColor;
-		
-		//GameObject.Find ("left_arm").renderer.material.color = teamColor;
-		//GameObject.Find ("left_boot").renderer.material.color = teamColor;
-		model.Find ("left_shoulder_guard").renderer.material.color = teamColor;
-		
-		//GameObject.Find ("right_arm3").renderer.material.color = teamColor;
-		//GameObject.Find ("right_boot").renderer.material.color = teamColor;
-		model.Find ("right_shoulder_guard").renderer.material.color = teamColor;
+		Color teamColor1 = new Color (51/255f,39/255f,32/255f);
+		Color teamColor2 = new Color (0.1f,0.1f,0.1f);
+		Color teamColor3 = new Color (104/255f,102/255f,99/255f);
+
+//		transform.Find ("Model").Find ("BetaHighResMeshes").Find ("Beta_HighLimbsGeo").renderer.material.color = teamColor1;
+//		transform.Find ("Model").Find ("BetaHighResMeshes").Find ("Beta_HighJointsGeo").renderer.material.color = teamColor2;
+//		transform.Find ("Model").Find ("BetaHighResMeshes").Find ("Beta_HighTorsoGeo").renderer.material.color = teamColor3;
 
 
 	}
@@ -86,12 +64,17 @@ public class Unit : MonoBehaviour {
 	}
 
 	public void OnBecameVisible() {
-		print ("I'm here!");
-		GameObject.Find ("Game Manager").GetComponent<UnitManager> ().unitsOnScreen.Add(this.gameObject);
+		//print ("I'm here!");
+		if(!unitManager.unitsOnScreen.Contains(this.gameObject)) {
+			unitManager.unitsOnScreen.Add(this.gameObject);
+		}
 	}
 
 	public void OnBecameInvisible() {
-		print ("I'm gone!");
-		GameObject.Find ("Game Manager").GetComponent<UnitManager> ().unitsOnScreen.Remove(this.gameObject);
+		//print ("I'm gone!");
+		if(unitManager.unitsOnScreen.Contains(this.gameObject)) {
+			unitManager.unitsOnScreen.Remove(this.gameObject);
+		}
+
 	}	
 }

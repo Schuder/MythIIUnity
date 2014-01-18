@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class OnScreen : MonoBehaviour {
@@ -14,11 +14,11 @@ public class OnScreen : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (GameObject.Find("head").renderer.isVisible &&( manager.unitsOnScreen.Contains(unit)!=true)) {
+		if (transform.Find("Model").renderer.isVisible &&( manager.unitsOnScreen.Contains(unit)!=true)) {
 			manager.unitsOnScreen.Add(unit);
 		}
 		else {
-			if ((GameObject.Find("head").renderer.isVisible!=true) && (manager.unitsOnScreen.Contains(unit)==true)) {
+			if ((transform.Find("Model").renderer.isVisible!=true) && (manager.unitsOnScreen.Contains(unit)==true)) {
 				manager.unitsOnScreen.Remove(unit);
 			}
 		}

@@ -13,7 +13,7 @@ public class Selectable : MonoBehaviour {
 	void Start () {
 		selected = transform.Find("HealthBar");
 		unit = selected.parent;
-		lastHealth = unit.GetComponent<Unit> ().health;
+		lastHealth = (unit.GetComponent<Unit> ().health/unit.GetComponent<Unit> ().healthMax)*100;
 		healthColor = new Color(0,1.0f,0);
 		selected.renderer.material.color = healthColor;
 	}
@@ -29,11 +29,10 @@ public class Selectable : MonoBehaviour {
 		}
 
 		if (unit.GetComponent<Unit> ().health != lastHealth && unit.GetComponent<Unit> ().health > 0) {
-			lastHealth = unit.GetComponent<Unit> ().health;
-
+			lastHealth = (unit.GetComponent<Unit> ().health/unit.GetComponent<Unit> ().healthMax)*100;
 			if(healthColor.r <1) {
 
-				healthColor.r=(-1*(lastHealth*5.1f-(unit.GetComponent<Unit> ().healthMax*5.1f)))/colorBrilliance;
+				healthColor.r=(-1*(lastHealth*5.1f-(100*5.1f)))/colorBrilliance;
 
 			}
 			else if(healthColor.g > 0) {

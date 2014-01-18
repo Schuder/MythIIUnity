@@ -124,6 +124,8 @@
      <Compile Include="Assets\Game Assets\Scripts\UnitAI.cs" />
      <Compile Include="Assets\Game Assets\Scripts\UnitControl.cs" />
      <Compile Include="Assets\Game Assets\Scripts\UnitManager.cs" />
+     <Compile Include="Assets\RootMotion.cs" />
+     <Compile Include="Assets\test.cs" />
      <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh2.shader" />
      <None Include="Assets\AstarPathfindingProject\Plugins\DotNetZip\License.txt" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
